@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Патчим вложенное свойство внутри блока building -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="AncientSmokeVent"]/building/destroyable</xpath>
+        <value>
+            <destroyable>true</destroyable>
+        </value>
+    </Operation>
+
+    <!-- Добавляем, если тега не было -->
+    <Operation Class="PatchOperationAdd" success="Always">
+        <xpath>/Defs/ThingDef[defName="AncientSmokeVent"]/building</xpath>
+        <value>
+            <destroyable>true</destroyable>
+        </value>
+    </Operation>
+</Patch>
