@@ -6,7 +6,7 @@
 
 ## 📥 Скачать мод / Download Mod
 
-(https://github.com/ibrakryt-pixel/RemoveAncientSmokeVent/releases/latest/download/RemoveAncientSmokeVent.zip)
+https://github.com/ibrakryt-pixel/RemoveAncientSmokeVent/releases/latest/download/RemoveAncientSmokeVent-1.0.0.zip
 
 ---
 
